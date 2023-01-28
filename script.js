@@ -14,8 +14,8 @@ const dvd = {
     sizeY : 70,
     x : (canvas.width / 2) - 100,
     y : (canvas.height / 2) - 100,
-    dx : 1,
-    dy : 1,
+    dx : 1.5,
+    dy : 1.5,
     index : 0
 };
 
