@@ -1,21 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  background-color: #7F8487;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Electrolize', monospace;
-  min-height: 100vh;
-  margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-canvas {
-  background: black;
-  display: block;
-  border: 3px solid #7F8487;
-  border-radius: 7px;
+#canvas {
+    border: 10px solid white;
 }
