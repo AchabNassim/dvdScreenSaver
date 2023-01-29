@@ -25,8 +25,7 @@ const dvd = {
 
 function moveDvd() {
     dvd.x += dvd.dx;
-    dvd.y += dvd.dy;
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    dvd.y += dvd.dy;    
     if (dvd.x + dvd.sizeX > canvas.width || dvd.x < 0)
     {
         counter++;
@@ -44,6 +43,7 @@ function moveDvd() {
         if (dvd.index > 4)
             dvd.index = 0;
     }
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(images[dvd.index], dvd.x, dvd.y);
     window.requestAnimationFrame(moveDvd);
 }
