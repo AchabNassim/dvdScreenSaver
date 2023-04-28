@@ -1,1 +1,1 @@
-¿ Will it hit the corner ?
+Will it hit the corner ?
