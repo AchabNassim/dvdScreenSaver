@@ -15,7 +15,15 @@ body {
 #canvas {
     height: 100%;
     width: 100%;
-    border: 6px solid white;
+    border: 4.5px solid white;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px 1px white;
+    box-shadow: 0.5px 0.5px 5px 1px white;
+}
+
+@media screen and (max-width: 600px) {
+
+    #container {
+        height: 55vh;
+        width: 80vw;
+    }
 }
