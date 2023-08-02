@@ -1,10 +1,21 @@
 body {
     background-color: black;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#container {
+    height: 80vh;
+    width: 60vw;
 }
 
 #canvas {
-    border: 10px solid white;
+    height: 100%;
+    width: 100%;
+    border: 6px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px white;
 }
