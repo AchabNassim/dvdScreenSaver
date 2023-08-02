@@ -11,20 +11,21 @@ const imagesSrc = [
     "imgs/dvd5.png",
 ];
 
+const dvd = {
+    sizeX : 98,
+    sizeY : 75,
+    x : (canvas.width / 2) - (dvd.sizeX / 2),
+    y : (canvas.height / 2) - (dvd.sizeY / 2),
+    dx : 1.5,
+    dy : 1.5,
+    index : 0
+};
+
 for (let i = 0; i < imagesNumber; i++) {
     images[i] = new Image();
     images[i].src = imagesSrc[i];
 }
 
-const dvd = {
-    sizeX : 98,
-    sizeY : 75,
-    x : (canvas.width - 98) / 2,
-    y : (canvas.height - 75) / 2,
-    dx : 1.5,
-    dy : 1.5,
-    index : 0
-};
 
 function moveDvd() {
     dvd.x += dvd.dx;
