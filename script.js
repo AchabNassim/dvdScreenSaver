@@ -14,8 +14,8 @@ const imagesSrc = [
 const dvd = {
     sizeX : 98,
     sizeY : 75,
-    x : (canvas.width / 2) - (dvd.sizeX / 2),
-    y : (canvas.height / 2) - (dvd.sizeY / 2),
+    x : (canvas.width / 2) - 40,
+    y : (canvas.height / 2) - 40,
     dx : 1.5,
     dy : 1.5,
     index : 0
